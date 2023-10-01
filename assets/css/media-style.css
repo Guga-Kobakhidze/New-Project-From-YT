@@ -83,6 +83,10 @@
   .sponsors-items {
     grid-template-columns: repeat(3, 1fr);
   }
+  /* About */
+  .about-img-box {
+    max-width: 280px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -136,6 +140,10 @@
   /* Footer */
   .contact-items {
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* Section header */
+  .section-header {
+    margin-bottom: 45px;
   }
 }
 

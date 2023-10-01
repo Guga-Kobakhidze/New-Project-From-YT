@@ -1,3 +1,25 @@
+// Aos and PreLoaded
+
+window.addEventListener("load", () => {
+  // preloader //
+  //   document.querySelector(".js-preloader").classList.add("loaded");
+  //   document
+  //     .querySelector(".js-preloader .js-bg-item")
+  //     .addEventListener("transitionend", () => {
+  //       document.querySelector(".js-preloader").style.display = "none";
+  // INITIALIZE AOS
+  AOS.init({
+    duration: 1200,
+    easeing: "ease-in-out-cubic",
+    once: true,
+  });
+});
+// });
+
+// Splitting //
+
+Splitting();
+
 // Schedule tabs //
 
 function scheduleTabs() {

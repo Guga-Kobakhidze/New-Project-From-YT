@@ -7,11 +7,33 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awsome.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/media-style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/aos.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/splitting.css" />
   </head>
   <body>
+    <!-- preloader -->
+    <!-- <div class="preloader js-preloader">
+      <div class="preloader-bg">
+        <div class="bg-item js-bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+        <div class="bg-item"></div>
+      </div>
+      <div class="preloader-items">
+        <div class="preloader-item"></div>
+        <div class="preloader-item"></div>
+        <div class="preloader-item"></div>
+        <div class="preloader-item"></div>
+      </div>
+    </div> -->
+
     <div class="page-wrapper">
       <!-- Header start -->
-      <header class="header">
+      <header class="header" data-aos="fade-down">
         <div class="header-container container">
           <a href="" class="header-logo"><span>event</span>tos</a>
           <button type="button" class="header-toggler js-header-toggler">
@@ -34,29 +56,41 @@
       <section class="home" id="home">
         <div class="home-container container">
           <div class="home-left">
-            <h1 class="home-title">music fest 2024</h1>
+            <h1 class="home-title" data-splitting data-aos="text-animation">
+              music fest 2024
+            </h1>
             <p class="home-subtitle">
-              <span>
+              <span data-aos="fade-up">
                 <i class="fa fa-calendar-alt"></i>
                 15-16 January
               </span>
-              <span>
+              <span data-aos="fade-up" data-aos-delay="300">
                 <i class="fa fa-map-marker-alt"></i>
                 Sarita vihar, New Delhi
               </span>
             </p>
-            <div class="home-btn">
+            <div class="home-btn" data-aos="fade-up" data-aos-delay="600">
               <a href="#pricing" class="btn">buy tickets</a>
             </div>
           </div>
           <div class="home-right">
             <div class="home-box">
-              <div class="home-decor"></div>
+              <div class="home-decor" data-aos="reveral-left"></div>
               <div class="home-img-box1">
-                <img src="assets/iamges/home-1.jpg" alt="img1" />
+                <img
+                  src="assets/iamges/home-1.jpg"
+                  alt="img1"
+                  data-aos="reveral-left"
+                  data-aos-delay="400"
+                />
               </div>
               <div class="home-img-box2">
-                <img src="assets/iamges/home-2.jpg" alt="img2" />
+                <img
+                  src="assets/iamges/home-2.jpg"
+                  alt="img2"
+                  data-aos="reveral-left"
+                  data-aos-delay="500"
+                />
               </div>
             </div>
           </div>
@@ -68,30 +102,40 @@
         <div class="container">
           <div class="about-content">
             <div class="section-header">
-              <h2 class="section-header-title">about event</h2>
+              <h2
+                class="section-header-title"
+                data-splitting
+                data-aos="text-animation"
+              >
+                about event
+              </h2>
             </div>
             <div class="about-img-box">
-              <img src="assets/iamges/about-1.jpg" alt="img" />
-              <div class="about-decor1"></div>
-              <div class="about-decor2"></div>
+              <img
+                src="assets/iamges/about-1.jpg"
+                alt="img"
+                data-aos="reveral-left"
+              />
+              <div class="about-decor1" data-aos="reveral-left"></div>
+              <div class="about-decor2" data-aos="reveral-left"></div>
             </div>
             <div class="about-text">
-              <p>
+              <p data-aos="fade">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquid possimus a, fugit necessitatibus ullam quod pariatur
                 labore, doloribus commodi ipsa enim laborum, natus impedit
                 cumque sapiente. Modi ullam eaque reiciendis?
               </p>
-              <p>
+              <p data-aos="fade">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Reiciendis ut facere perferendis minima optio adipisci maiores
                 ducimus laborum id odit!
               </p>
-              <p>
+              <p data-aos="fade">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
                 distinctio ipsam maiores laboriosam alias. Eos?
               </p>
-              <div class="about-btn">
+              <div class="about-btn" data-aos="fade-up">
                 <a href="#pricing" class="btn">buy tickets</a>
               </div>
             </div>
@@ -103,31 +147,85 @@
       <section class="performers" id="performers">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header-title">special performers</h2>
+            <h2
+              class="section-header-title"
+              data-splitting
+              data-aos="text-animation"
+            >
+              special performers
+            </h2>
           </div>
           <div class="performers-items">
             <div class="performers-item">
-              <img src="assets/iamges/performer-1.jpg" alt="" />
+              <img
+                src="assets/iamges/performer-1.jpg"
+                alt=""
+                data-aos="reveral-left"
+              />
               <div class="performers-info">
-                <div class="performers-backdrop"></div>
-                <h3 class="performers-name">john doe</h3>
-                <div class="performers-job">singer</div>
+                <div class="performers-backdrop" data-aos="reveral-left"></div>
+                <h3
+                  class="performers-name"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  john doe
+                </h3>
+                <div
+                  class="performers-job"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  singer
+                </div>
               </div>
             </div>
             <div class="performers-item">
-              <img src="assets/iamges/performer-2.jpg" alt="" />
+              <img
+                src="assets/iamges/performer-2.jpg"
+                alt=""
+                data-aos="reveral-left"
+              />
               <div class="performers-info">
-                <div class="performers-backdrop"></div>
-                <h3 class="performers-name">john doe</h3>
-                <div class="performers-job">singer</div>
+                <div class="performers-backdrop" data-aos="reveral-left"></div>
+                <h3
+                  class="performers-name"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  john doe
+                </h3>
+                <div
+                  class="performers-job"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  singer
+                </div>
               </div>
             </div>
             <div class="performers-item">
-              <img src="assets/iamges/performer-3.jpg" alt="" />
+              <img
+                src="assets/iamges/performer-3.jpg"
+                alt=""
+                data-aos="reveral-left"
+              />
               <div class="performers-info">
-                <div class="performers-backdrop"></div>
-                <h3 class="performers-name">john doe</h3>
-                <div class="performers-job">singer</div>
+                <div class="performers-backdrop" data-aos="reveral-left"></div>
+                <h3
+                  class="performers-name"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  john doe
+                </h3>
+                <div
+                  class="performers-job"
+                  data-aos="fade"
+                  data-aos-delay="500"
+                >
+                  singer
+                </div>
               </div>
             </div>
           </div>
@@ -138,9 +236,15 @@
       <section class="schedule" id="schedule">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header-title">event schedule</h2>
+            <h2
+              class="section-header-title"
+              data-splitting
+              data-aos="text-animation"
+            >
+              event schedule
+            </h2>
           </div>
-          <div class="schedule-tabs">
+          <div class="schedule-tabs" data-aos="fade-up">
             <button
               type="button"
               data-target="#day-1"
@@ -157,7 +261,11 @@
             </button>
           </div>
           <div class="schedule-tab-content">
-            <table class="schedule-table active js-schedule-table" id="day-1">
+            <table
+              class="schedule-table active js-schedule-table"
+              id="day-1"
+              data-aos="fade-up"
+            >
               <tr>
                 <th>time</th>
                 <th>genre</th>
@@ -227,39 +335,45 @@
       <section class="sponsors" id="sponsors">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header-title">event sponsors</h2>
+            <h2
+              class="section-header-title"
+              data-splitting
+              data-aos="text-animation"
+            >
+              event sponsors
+            </h2>
           </div>
           <div class="sponsors-items">
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade">
               <img src="assets/iamges/sponsor-1.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="50">
               <img src="assets/iamges/sponsor-2.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="100">
               <img src="assets/iamges/sponsor-3.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="150">
               <img src="assets/iamges/sponsor-4.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="200">
               <img src="assets/iamges/sponsor-5.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="250">
               <img src="assets/iamges/sponsor-6.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="300">
               <img src="assets/iamges/sponsor-7.png" alt="img" />
             </div>
             <!-- sponsors item -->
-            <div class="sponsors-item">
+            <div class="sponsors-item" data-aos="fade" data-aos-delay="350">
               <img src="assets/iamges/sponsor-1.png" alt="img" />
             </div>
           </div>
@@ -270,11 +384,17 @@
       <section class="pricing" id="pricing">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header-title">get your ticket</h2>
+            <h2
+              class="section-header-title"
+              data-splitting
+              data-aos="text-animation"
+            >
+              get your ticket
+            </h2>
           </div>
           <div class="pricing-cards">
             <div class="pricing-card">
-              <div class="decor"></div>
+              <div class="decor" data-aos="reveral-left"></div>
               <div class="inner">
                 <h3 class="title">basic</h3>
                 <ul>
@@ -287,7 +407,7 @@
               </div>
             </div>
             <div class="pricing-card">
-              <div class="decor"></div>
+              <div class="decor" data-aos="reveral-left"></div>
               <div class="inner">
                 <h3 class="title">standard</h3>
                 <ul>
@@ -307,25 +427,31 @@
       <section class="contact" id="contact">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-header-title">contact us</h2>
+            <h2
+              class="section-header-title"
+              data-splitting
+              data-aos="text-animation"
+            >
+              contact us
+            </h2>
           </div>
           <div class="contact-content">
             <div class="contact-items">
-              <div class="contact-item">
+              <div class="contact-item" data-aos="fade-up">
                 <i class="fa fa-phone"></i>
                 <div class="text">
                   <h3>call us</h3>
                   <p>96549 293 ***</p>
                 </div>
               </div>
-              <div class="contact-item">
+              <div class="contact-item" data-aos="fade-up">
                 <i class="fa fa-envelope"></i>
                 <div class="text">
                   <h3>email us</h3>
                   <p>info@gmail.com</p>
                 </div>
               </div>
-              <div class="contact-item">
+              <div class="contact-item" data-aos="fade-up">
                 <i class="fa fa-map-marker-alt"></i>
                 <div class="text">
                   <h3>reach us</h3>
@@ -333,7 +459,7 @@
                 </div>
               </div>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" data-aos="fade-up">
               <div class="col-2">
                 <div class="input-box">
                   <input type="text" placeholder="Name" class="input" />
@@ -373,6 +499,8 @@
       </footer>
     </div>
 
+    <script src="assets/js/splitting.min.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
